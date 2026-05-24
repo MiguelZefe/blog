@@ -15,7 +15,7 @@ class Publicacion {
     // LISTAR
     public function obtener(){
 
-        $sql = "SELECT * FROM publicaciones ORDER BY fecha DESC";
+        $sql = "SELECT * FROM publicaciones ORDER BY fecha_publicacion DESC";
 
         $stmt = $this->conexion->prepare($sql);
 
