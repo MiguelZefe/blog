@@ -3,12 +3,6 @@
 
 
 class Conexion {
-    '''
-    private $host = "localhost";
-    private $db = "cms_blog";
-    private $user = "root";
-    private $pass = "";
-    '''
     private $host = "sql5.freesqldatabase.com";
     private $user = "sql5828139";
     private $pass = "YDitFZta52";
