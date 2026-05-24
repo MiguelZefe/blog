@@ -1,7 +1,4 @@
 <?php
-
-
-
 class Conexion {
     private $host = "sql5.freesqldatabase.com";
     private $user = "sql5828139";
@@ -9,9 +6,7 @@ class Conexion {
     private $db = "sql5828139";
 
     public function conectar(){
-
-        try{
-
+        try {
             $conexion = new PDO(
                 "mysql:host=".$this->host.";dbname=".$this->db,
                 $this->user,
@@ -25,14 +20,12 @@ class Conexion {
 
             return $conexion;
 
-        }catch(PDOException $e){
-
+        } catch(PDOException $e) {
+            // Muestra la alerta de error en el navegador antes de morir
+            $errorMsg = addslashes($e->getMessage());
+            echo "<script>alert('Error de conexión a la BD: " . $errorMsg . "');</script>";
             die("Error de conexión: " . $e->getMessage());
-
         }
-
     }
-
 }
-
 ?>
