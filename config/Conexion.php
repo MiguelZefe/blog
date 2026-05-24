@@ -9,7 +9,7 @@ class Conexion {
     '''
     private $host = "sql5.freesqldatabase.com";
     private $user = "sql5828139";
-    private $pass = "TU_CONTRASEÑA_DEL_CORREO";
+    private $pass = "YDitFZta52";
     private $db = "sql5828139";
 
     public function conectar(){
