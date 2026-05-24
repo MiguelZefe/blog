@@ -1,19 +1,6 @@
 <?php
 
 require_once "config/Conexion.php";
-
-try {
-    // Intentamos obtener la instancia de la conexión
-    $db = Conexion::conectar(); 
-    
-    // Si la conexión es exitosa, muestra este alert
-    echo "<script>alert('Conexión exitosa a la base de datos.');</script>";
-
-} catch (Exception $e) {
-    // Si ocurre un error, muestra este alert con el mensaje de falla
-    echo "<script>alert('Error al conectar a la base de datos: " . addslashes($e->getMessage()) . "');</script>";
-}
-
 class Publicacion {
 
     private $conexion;
