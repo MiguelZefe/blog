@@ -16,7 +16,7 @@ Nueva publicación
         <tr>
             <th>ID</th>
             <th>Título</th>
-            <th>Autor</th>
+            <th>Contenido</th>
             <th>Fecha</th>
             <th>Acciones</th>
         </tr>
@@ -33,9 +33,9 @@ Nueva publicación
 
             <td><?= $p['titulo'] ?></td>
 
-            <td><?= $p['autor'] ?></td>
+            <td><?= $p['contenido'] ?></td>
 
-            <td><?= $p['fecha'] ?></td>
+            <td><?= $p['fecha_publicacion'] ?></td>
 
             <td>
 
