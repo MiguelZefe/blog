@@ -31,7 +31,7 @@ Nueva publicación
 
             <td><?= $p['id'] ?></td>
 
-            <td><?= $p['titulo'] ?></td>
+            <td><?= $p['contenido'] ?></td>
 
             <td><?= $p['autor'] ?></td>
 
