@@ -1,7 +1,7 @@
 <?php require_once "views/header.php"; ?>
 
 <h1 class="mb-4">
-    Blog de Aprendizajes
+    Blog de Aprendizajes Miguel Zeferino López UNRC
 </h1>
 
 <a href="?action=crear"
